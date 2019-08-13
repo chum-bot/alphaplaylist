@@ -30,7 +30,7 @@ header{
 
 .navbar{
   overflow: hidden;  
-  
+  background-image: linear-gradient(red, rgb(255, 0, 128));
     display: flex;
     justify-content: center;
     justify-content: space-around;
