@@ -39,6 +39,7 @@ header{
     padding-bottom: 25px;
     text-align: center;
     background-image: linear-gradient(yellow, green, yellow);
+
 }
 #playlistDisplay li{
     margin-bottom: 10px;
