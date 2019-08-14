@@ -8,7 +8,7 @@ body{
 
 header{
     display: inline-flex;
-    background-image: linear-gradient(yellow,green);
+    background-image: linear-gradient(yellow,darkgreen);
     width: 100%;
     height: 150px;
     align-content: center;
