@@ -17,22 +17,46 @@ header{
 
 #headerName{
     font-family: 'Nova Script', cursive;
-    margin-top: 30px;
+    align-self: center;
 }
 
 #logo{
     margin-top: 45px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
     object-fit: cover;
 }
 
+
+#playlistDisplay{
+    font-family: 'Nova Script', cursive;
+    margin: auto;
+    width: 600px;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-image: linear-gradient(yellow, green, yellow);
+
+}
+#playlistDisplay li{
+    margin-bottom: 10px;
+    border-bottom:4px solid red;
+    background-color: rgba(255,0,0, 0.3);
+    color: lemonchiffon;
+}
 .navbar{
   overflow: hidden;  
-  
+  background-image: linear-gradient(red, rgb(255, 0, 128));
     display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: flex-end;
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> 77debc38261c97b11ea01eb05be45878f377cfc4
