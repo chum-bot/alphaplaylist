@@ -53,10 +53,9 @@
 <body>
 
 
-        <h1 id = "playlistSelection">Select playlist</h1>
+        <button id = "playlistSelection" onclick = "authenticate().then(loadClient()).then(execute())" >Select playlist</button>
 
 <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-<button onclick="authenticate().then(loadClient).then(playlistToSelect)">authorize and load but don't execute yet</button>
         <ul id = "playlistDisplay"></ul>
 </body>
 </html>

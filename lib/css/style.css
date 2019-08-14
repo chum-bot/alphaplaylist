@@ -59,4 +59,16 @@ header{
 =======
 
 }
+<<<<<<< HEAD
 >>>>>>> 77debc38261c97b11ea01eb05be45878f377cfc4
+=======
+
+#playlistSelection{
+    font-family: 'Nova Script', cursive;
+}
+
+#picture{
+    height: 300px;
+    width: 300px;
+}
+>>>>>>> 813c6682ae8a0032166f0477c627c5882e99dde9
