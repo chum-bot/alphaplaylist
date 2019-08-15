@@ -36,7 +36,9 @@ header{
     margin: auto;
     width: 90%;
     height: 100%;
+
     border-radius: 50px;
+
     list-style-type: none;
     padding-top: 25px;
     padding-right: 35px;
@@ -70,6 +72,7 @@ header{
 
 }
 
+
 #playlistSelection{
     font-family: 'Nova Script', cursive;
     background-color: greenyellow;
@@ -78,8 +81,6 @@ header{
     border: 4px solid red;
     margin: 20px;
     cursor: pointer;
-
-
 }
 
 #playlistSelection:hover{
@@ -89,6 +90,7 @@ header{
     transition: 700ms;
 }
 
+
 #picture{
     display:inline-flex;
     align-self: center;
@@ -96,7 +98,6 @@ header{
     height: 300px;
     width: 300px;
 }
-
 #searchbar{
    background-color: rgb(44,44,44); 
     padding:15px; 
@@ -126,7 +127,6 @@ header{
 #playlistDisplay li{
     flex-shrink: 1 0 auto;
     }
-    
 }
 
 @media (max-width: 530px){
@@ -134,4 +134,5 @@ header{
         width: 60%;
         height: 60%;
     }
+
 }
