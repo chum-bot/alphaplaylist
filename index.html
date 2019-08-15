@@ -31,17 +31,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <style>
-       body {
-           background: whitesmoke;
-       }
-       .navbar {
-        overflow: hidden;
-        background-color:rgb(14, 243, 144);
-       }
-
-    
-    </style>
 </head>
 <header>
     <img id="logo" src="https://cdn.discordapp.com/attachments/452272682541776897/609463875321987083/alphaplaylist_logo__2_.png">       
@@ -50,11 +39,25 @@
     </div>
     
 </header>
-<body>
+<body bgcolor="#222222">
+    <form>
+ <input type="button" onclick="myFunction()"><br>
+    <input id = "searchbar" type="text" placeholder="Song"><br>
+    <button>
+        <div class="dropdown-menu">
+            <button  onclick="sortPlease()"
+            class ="dropbtn">Sorting options</button>
+            <div id="dropDown" class="inside-dropdown">
+                <a href="A-Z">link it michael</a>
+                <a href="Newest/Oldest added">link michael</a>
+                <a href="By search"> link michael</a>
+            </div>
+        </div>
 
 
-        <button id = "playlistSelection" onclick = "authenticate().then(loadClient()).then(execute())" >Select playlist</button>
+        <button id = "playlistSelection" onclick = "authenticate().then(loadClient).then(playlistToSelect)" >Select playlist</button>
 
+<div id="pictureCont"></div>
 <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
         <ul id = "playlistDisplay"></ul>
 </body>
