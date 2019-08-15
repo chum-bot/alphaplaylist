@@ -49,8 +49,10 @@ header{
     margin-bottom: 10px;
     border-bottom:4px solid red;
     background-color: rgba(255,0,0, 0.3);
-    color: lemonchiffon;
     border-radius: 50px;
+}
+#playlistDisplay li a{
+    color: lemonchiffon;
 }
 
 #playlistDisplay li:hover{
