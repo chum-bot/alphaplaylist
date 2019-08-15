@@ -77,12 +77,14 @@ header{
     margin: 20px;
     cursor: pointer;
 
+
 }
 
 #playlistSelection:hover{
     background-color: red;
     border: 4px solid greenyellow;
     color: white;
+    transition: 700ms;
 }
 
 #picture{
