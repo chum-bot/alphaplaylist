@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nova+Script&display=swap');
+
+
+body{
+    margin: 0px;
+    text-align: center;
+}
+
+header{
+    display: inline-flex;
+    background-image: linear-gradient(yellow,green);
+    width: 100%;
+    height: 150px;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+#headerName{
+    font-family: 'Nova Script', cursive;
+    align-self: center;
+}
+
+#logo{
+    margin-top: 45px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+#playlistDisplay{
+    font-family: 'Nova Script', cursive;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border-radius: 50px;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-image: linear-gradient(yellow, green, yellow);
+    
+}
+#playlistDisplay li{
+    margin-bottom: 10px;
+    border-bottom:4px solid red;
+    background-color: rgba(255,0,0, 0.3);
+    border-radius: 50px;
+}
+#playlistDisplay li a{
+    color: lemonchiffon;
+}
+
+#playlistDisplay li:hover{
+    background-color: rgba(255,0,0);
+    color: white;
+    transition: 1000ms;
+    cursor: pointer;
+}
+.navbar{
+  overflow: hidden;  
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+#playlistSelection{
+    font-family: 'Nova Script', cursive;
+    background-color: greenyellow;
+    text-align: center;
+    border-radius: 50px;
+    border: 4px solid red;
+    margin: 20px;
+    cursor: pointer;
+
+
+}
+
+#playlistSelection:hover{
+    background-color: red;
+    border: 4px solid greenyellow;
+    color: white;
+    transition: 700ms;
+}
+
+#picture{
+    display:inline-flex;
+    align-self: center;
+    margin-left: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+#searchbar{
+   background-color: rgb(44,44,44); 
+    padding:15px; 
+    border-radius: 10px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  } 
+
+  input[type=text] { 
+     width: 30%; 
+     -webkit-transition: width 0.15s ease-in-out; 
+     transition: width 0.15s ease-in-out;
+     color: white; 
+  } 
+
+  /* When the input field gets focus, 
+       change its width to 100% */
+  input[type=text]:focus { 
+    width: 70%; 
+  }
+
+@media (max-width: 1030px){
+    #playlistDisplay{
+        flex-direction: column;
+        align-items: center;
+    }
+#playlistDisplay li{
+    flex-shrink: 1 0 auto;
+    }
+    
+}
+
+@media (max-width: 530px){
+    #picture{
+        width: 60%;
+        height: 60%;
+    }
+}
