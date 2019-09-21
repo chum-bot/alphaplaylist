@@ -73,7 +73,7 @@ header{
 }
 
 
-#playlistSelection{
+.buttons{
     font-family: 'Nova Script', cursive;
     background-color: greenyellow;
     text-align: center;
@@ -83,7 +83,7 @@ header{
     cursor: pointer;
 }
 
-#playlistSelection:hover{
+.buttons:hover{
     background-color: red;
     border: 4px solid greenyellow;
     color: white;
