@@ -94,8 +94,9 @@ header{
 #like_button{
     display:none;
 }
-
-
+#moreSongsButton{
+    display:none;
+}
 #picture{
     display:inline-flex;
     align-self: center;
