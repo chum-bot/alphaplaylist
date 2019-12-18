@@ -97,7 +97,7 @@ header{
 #moreSongsButton{
     display:none;
 }
-#picture{
+.pictures{
     display:inline-flex;
     align-self: center;
     margin-left: 20px;
