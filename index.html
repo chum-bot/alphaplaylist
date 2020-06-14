@@ -17,11 +17,11 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
-        $( function() {
-          $( "#playlistDisplay" ).sortable();
-          $( "#playlistDisplay" ).disableSelection();
-        } );
-        </script>
+        $(function () {
+            $("#playlistDisplay").sortable();
+            $("#playlistDisplay").disableSelection();
+        });
+    </script>
     <link rel="stylesheet" href="lib/css/style.css">
     <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
@@ -59,10 +59,10 @@
         playlist</button>
     <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
     <div id="pictureCont"></div>
-    <button class = "buttons" id = "like_button">Liked songs playlist</button>
+    <button class="buttons" id="like_button">Liked songs playlist</button>
     <input id="searchbar" onkeyup="searchSong()" type="text" name="search" placeholder="Search a song">
     <ul id="playlistDisplay"></ul>
-    <button class = "buttons" onclick = "showMoreSongs()" id = "moreSongsButton">Show more songs</button>
+    <button class="buttons" onclick="showMoreSongs()" id="moreSongsButton">Show more songs</button>
 </body>
 
 </html>
